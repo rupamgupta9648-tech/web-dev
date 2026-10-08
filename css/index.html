@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            background-color: rgb(174, 161, 161);
+        }
         p{
-            color: green!important;
+            color: green;
         
         }
         #intro {
@@ -15,6 +18,10 @@
         }
         .note{
             color:red;
+
+        }
+        .note{
+            color: ;
         }
         .box{
             border:1px solid black;
@@ -25,14 +32,42 @@
             box-sizing: border-box; 
 
         }
+        /*div>p{
+            color: blueviolet;
+        }*/
+        div p{
+            color: blueviolet;
+        }
+        .container{
+            width: 500px;
+
+            margin: 0 auto; 
+            border:10px solid blue;
+        }
 
     </style>
 </head>
 <body>
+    
     <h1 class="box">This is my heading</h1>
     <p id="intro" class="note" >this is my paragraph</p>
     <p style="color:purple">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti quo doloremque fugiat natus atque iure voluptate iste sapiente illum architecto, libero, molestias molestiae! Perferendis nemo qui veniam distinctio itaque dolorem!</p>
     <p id="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda minima dolor minus ipsum debitis facere beatae unde ea eius fuga omnis eaque maiores reiciendis, deleniti velit suscipit, laborum nisi excepturi?</p>
+    <p class="note">new pragarph</p>
+    <div>
+        <p>child 1 </p>
+        <div>
+            <p>child 2</p>
+            <strong><p>some thing important</p></strong>
+
+        </div>
+        <span>span</span>
+    </div>
+    <div>
+        <p class="css-unit">this is a pragarph</p>
+
+    </div>
+    <h1 class="container">This is my heading</h1>
     
 </body>
 </html>
